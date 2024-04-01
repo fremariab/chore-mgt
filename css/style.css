@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.clearfix {
+    clear: both;
+}
+
+.left-div {
+    width: 23%;
+    float: left;
+    padding: 25px 10px 0px 35px;
+    background-color: #38B6FF;
+    height: 100vh;
+    position: fixed;
+    overflow-y: auto;
+}
+
+.right-div {
+    width: 73%;
+    float: right;
+    margin: 25px;
+    border-radius: 25px;
+    padding: 30px;
+
+}
+
+.logo {
+    color: white;
+    font-weight: 900;
+}
+
+.hr {
+    border: none;
+    height: 1px;
+    background: #ddd3;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 85%;
+}
+
+.nav li {
+    list-style: none;
+    padding: 13px 10px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav li a i {
+    padding-right: 5px;
+    color: black;
+    font-size: 23px;
+    padding-right: 10px;
+    vertical-align: bottom;
+    width: 23px;
+    height: 23px;
+    margin-right: 20px;
+}
+
+.active {
+    background: black;
+    border-radius: 27px;
+    position: relative;
+}
+
+.nav>.active::before,
+.nav>.active::after {
+    content: "";
+    position: absolute;
+}
+
+.nav>li {
+    border-radius: 60px 0 0 60px;
+    width: 101%;
+    padding-left: 25px;
+    margin-left: -16px;
+}
+
+.nav>.active::before {
+    top: -80px;
+    right: -24px;
+    height: 80px;
+    width: 40px;
+    border-bottom-right-radius: 80px;
+    box-shadow: 0 40px 0 0 white;
+    transform: rotateY(324deg);
+}
+
+.nav>.active::after {
+    top: 49px;
+    right: -24px;
+    height: 80px;
+    width: 38px;
+    border-top-right-radius: 80px;
+    box-shadow: 0 -40px 0 0 white;
+    transform: rotateY(324deg);
+}
+
+.active a {
+    color: black !important;
+}
+
+.support {
+    background: #ffffff21;
+    border-radius: 10px;
+    position: absolute;
+    width: 175px;
+    bottom: 35px;
+}
+
+.head {
+    padding: 0px 6px;
+    border-bottom: 3px solid #38B6FF;
+    padding-bottom: 10px;
+    font-size: 30px;
+
+}
+
+.col-div-6 {
+    width: 50%;
+    float: left;
+}
+
+.profile {
+    display: inline-block;
+    float: right;
+    width: 200px;
+    position: relative;
+
+}
+
+.profile p {
+    color: #38B6FF;
+    font-weight: 500;
+    margin-left: 35px;
+    margin-top: 10px;
+    font-size: 13.5px;
+    background-color: #e3e3e3;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 2px 5px 10px #ddd;
+
+}
+
+.col-div-4-1 {
+    width: 33.3%;
+    float: left;
+}
+
+.box {
+    width: 88%;
+    height: 130px;
+    background-color: #e3e3e3;
+    margin-left: 10px;
+    padding: 10px;
+    box-shadow: 2px 5px 10px #ddd;
+    position: relative;
+    border-radius: 15px;
+}
+
+.box p {
+    color: #38B6FF;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.number {
+    font-size: 35px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.head-1 {
+    font-size: 18px !important;
+    margin: 10px 0px;
+    color: #38B6FF;
+
+}
+
+.head-1 span {
+    float: right;
+    background-color: #38B6FF;
+    color: white;
+    padding: 3px 10px;
+    font-size: 15px;
+    line-height: 14px;
+    vertical-align: baseline;
+    padding-top: 8px;
+}
+
+.box-icon {
+    font-size: 20px !important;
+    margin-top: 35px !important;
+    color: #38B6FF;
+    padding-right: 10px;
+    background-color: #efeff5;
+    padding: 15px;
+    border-radius: 25px;
+    position: absolute;
+    right: 16px;
+    top: -18px;
+}
+
+.box-1 {
+    color: #38B6FF;
+    width: 825px;
+    height: fit-content;
+    background-color: #e3e3e3;
+    margin-left: 10px;
+    padding: 10px;
+    box-shadow: 2px 5px 10px #ddd;
+    position: relative;
+    border-radius: 25px;
+
+}
+
+p.nav {
+
+    position: relative;
+    font-size: 33.5px;
+    width: 35%;
+}
+
+.m-box {
+    color: #6c7293;
+    position: relative;
+    padding: 0px 12px;
+    padding: 20px;
+
+}
+
+.m-box p {
+    display: inline-block;
+}
+
+.no {
+    position: absolute !important;
+    right: 480px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.no1 {
+    position: absolute !important;
+    right: 300px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.no2 {
+    position: absolute !important;
+    right: 100px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.no-1 {
+    font-size: 12px;
+}
+
+.content-box-1 {
+    padding: 0px 10px;
+}
+
+.content-box {
+    padding: 20px;
+}
+
+.content-box p {
+    margin: 0px;
+    font-size: 20px;
+    color: #6c7293;
+}
+
+.content-box p span {
+    float: right;
+    background-color: #38B6FF;
+    color: white;
+    padding: 3px 10px;
+    font-size: 15px;
+}
+
+.active1 {
+    background: #38B6FF;
+    color: white;
+    border-radius: 0;
+}
+
+.active1 p .no-1 {
+    color: white;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.form-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.form label,
+.form button {
+    display: block;
+    margin-bottom: 2px;
+}
+
+
+.form input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+button {
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 7px;
+    border: none;
+    background: #38B6FF;
+    padding: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+button:hover {
+    background-color: #38B6FF;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+
+.button-container button {
+    margin-top: -40px;
+}
+
+select {
+    height: 60px;
+    width: 100%;
+    padding: 0 15px;
+    font-size: 17px;
+    margin-bottom: 1.3rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+
+th {
+    background-color: #38B6FF;
+    color: white;
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    align-items: left;
+    border-right: 1px solid #ddd;
+
+}
+
+tbody td {
+    text-align: left;
+}

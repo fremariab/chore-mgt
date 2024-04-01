@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    min-height: 0vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/choremansys.png');
+    font-family: 'Poppins';
+}
+
+.form {
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    height: fit-content;
+    max-width: 550px;
+    width: 100%;
+    padding: 34px;
+    margin-top: 10%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10%;
+}
+
+.form h1 {
+    position: relative;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    color: #333;
+    text-align: center;
+}
+
+.form form {
+    margin-top: 30px;
+}
+
+.form form .input-box {
+    height: 45px;
+    margin: 18px 0;
+}
+
+form .input-box input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+
+button {
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 7px;
+    border: none;
+    background: #018575;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+button:hover {
+    background-color: #018575;
+}
+
+a {
+    text-decoration: none;
+    color: #018575;
+
+}
+
+a:visited {
+    color: #018575;
+}
+
+a:hover {
+    color: #018575;
+}
+
+.user {
+    color: grey;
+    font-size: 11px;
+}
+
+.radio {
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1px solid gray;
+    border-radius: 15px;
+    height: fit-content;
+    margin: 18px 0;
+    height: 45px;
+    padding-top: 10px;
+}
+
+.radio-container {
+    display: inline;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.radio-container input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #018575;
+    margin-right: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.radio-container input[type="radio"]::before {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 2px;
+    transition: background-color 0.3s ease;
+}
+
+.radio-container input[type="radio"]:checked::before {
+    background-color: #018575;
+}
+
+.radio-container label {
+    font-size: 16px;
+    color: #333;
+}
+
+select {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1px solid grey;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
